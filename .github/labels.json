@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Document",
+		"color": "0075ca",
+		"aliases": [],
+		"description": "문서작업과 관련된 이슈"
+	},
+	{
+		"name": "IaC",
+		"color": "623ce4",
+		"aliases": [],
+		"description": "Terraform과 관련된 이슈"
+	},
+	{
+		"name": "IaC/Terraform",
+		"color": "623ce4",
+		"aliases": [],
+		"description": "Terraform과 관련된 이슈"
+	},
+	{
+		"name": "AWS",
+		"color": "e3973d",
+		"aliases": [],
+		"description": "AWS와 관련된 이슈"
+	},
+	{
+		"name": "AWS/VPC",
+		"color": "e3973d",
+		"aliases": [],
+		"description": "AWS의 VPC와 관련된 이슈"
+	},
+	{
+		"name": "AWS/EC2",
+		"color": "e3973d",
+		"aliases": [],
+		"description": "AWS의 EC2와 관련된 이슈"
+	}
+]

@@ -1,0 +1,26 @@
+name: AWS
+description: For AWS
+title: "[AWS]: "
+labels: ["AWS"]
+assignees:
+  - Jack-R-lantern
+body:
+  - type: markdown
+    attributes:
+      value: |
+        AWS 작업과 관련된 이슈를 작성해주세요.
+  - type: dropdown
+    attributes:
+      label: choose AWS Feature
+      description: 사용할 기능을 선택해주세요
+      multiple: true
+      options:
+        - VPC
+        - EC2
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: AWS에서 수행해야 할 작업을 명시해주세요
+    validations:
+      required: true

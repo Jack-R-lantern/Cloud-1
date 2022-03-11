@@ -1,0 +1,26 @@
+name: IaC
+description: For IaC
+title: "[IaC]: "
+labels: ["IaC"]
+assignees:
+  - Jack-R-lantern
+body:
+  - type: markdown
+    attributes:
+      value: |
+        IaC 작업과 관련된 이슈를 작성해주세요.
+  - type: dropdown
+    attributes:
+      label: choose IaC
+      description: 사용할 IaC를 선택해주세요
+      multiple: true
+      options:
+        - Terraform
+        - Ansible
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: IaC로 수행해야 할 작업을 명시해주세요
+    validations:
+      required: true
