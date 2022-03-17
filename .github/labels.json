@@ -6,6 +6,18 @@
 		"description": "문서작업과 관련된 이슈"
 	},
 	{
+		"name": "Docker",
+		"color": "2496ed",
+		"aliases": [],
+		"description": "Docker와 관련된 이슈"
+	},
+	{
+		"name": "Study",
+		"color": "006B75",
+		"aliases": [],
+		"description": "학습한 내용과 관련된 이슈"
+	},
+	{
 		"name": "IaC",
 		"color": "623ce4",
 		"aliases": [],
