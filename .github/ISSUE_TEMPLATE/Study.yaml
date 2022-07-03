@@ -1,0 +1,17 @@
+name: Study
+description: For Study
+title: "[Study]: "
+labels: ["Study"]
+assignees:
+  - Jack-R-lantern
+body:
+  - type: markdown
+    attributes:
+      value: |
+        학습과 관련된 이슈를 작성해주세요.
+  - type: textarea
+    id: study
+    attributes:
+      label: 학습할/한 내용을 명시해주세요
+    validations:
+      required: true

@@ -1,0 +1,28 @@
+name: Docker
+description: For Docker
+title: "[Docker]: "
+labels: ["Docker"]
+assignees:
+  - Jack-R-lantern
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Docker 작업과 관련된 이슈를 작성해주세요.
+  - type: dropdown
+    attributes:
+      label: choose task
+      description: 수행해야할 작업을 선택해주세요
+      multiple: true
+      options:
+        - Container
+        - Network
+        - Volume
+    validations:
+      required: true
+  - type: textarea
+    id: docs
+    attributes:
+      label: Docker 작업에서 수행해야할 내용을 명시해주세요
+    validations:
+      required: true
